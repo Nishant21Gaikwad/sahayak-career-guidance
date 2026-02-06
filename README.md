@@ -84,6 +84,8 @@ VITE_FIREBASE_APP_ID=your_app_id
 
 # Gemini API Key (for serverless functions)
 GEMINI_API_KEY=your_gemini_api_key
+# Optional model override (recommended stable model)
+GEMINI_MODEL=gemini-2.5-flash
 ```
 
 ### **4. Run Development Server**

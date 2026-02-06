@@ -10,14 +10,16 @@ npm i -g vercel
 # Deploy
 vercel
 
-# Set environment variable
+# Set environment variables
 vercel env add GEMINI_API_KEY
+vercel env add GEMINI_MODEL
 ```
 
 ### 2. Set Environment Variables in Vercel Dashboard
 1. Go to your project in Vercel dashboard
 2. Go to Settings > Environment Variables
 3. Add: `GEMINI_API_KEY` = `your_actual_api_key_here`
+4. Optional: `GEMINI_MODEL` = `gemini-2.5-flash` (or another supported model)
 
 ### 3. Benefits of Vercel Serverless Functions
 - ✅ **Secure**: API keys never exposed to client
